@@ -17,3 +17,12 @@ def guess_age():
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 
     print("Your age is " + str(age) + "; that's a good time to start programming!")
+
+def count():
+    print('Now I will prove to you that I can count to any number you want.')
+
+    num = int(input())
+    curr = 0
+    while curr <= num:
+        print(curr, '!')
+        curr = curr + 1
