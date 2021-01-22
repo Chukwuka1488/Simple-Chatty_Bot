@@ -26,3 +26,24 @@ def count():
     while curr <= num:
         print(curr, '!')
         curr = curr + 1
+
+def test():
+    print("Let's test your programming knowledge.")
+    # write your code here
+    print("Why do we use methods?")
+    results = ["1. To repeat a statement multiple times.",
+               "2. To decompose a program into several small subroutines.",
+               "3. To determine the execution time of a program.",
+               "4. To interrupt the execution of a program."]
+    for i in results:
+        print(i)
+    user_input = input()
+    answer = results[int(user_input)]
+    while answer != "1":
+        print("Please, try again.")
+        user_input = input()
+        if user_input == "1":
+            print('Completed, have a nice day!')
+            break
+def end():
+    print('Congratulations, have a nice day!')
